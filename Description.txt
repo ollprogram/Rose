@@ -1,0 +1,44 @@
+# Description
+
+Ce plugin rajoute différentes commandes:
+  
+  La commande Rose:
+    /rose
+    Simple commande de test. La première commande créée. 
+    Elle envoi au joueur la version du plugin et celle de l'API.
+    
+  La commande gps:
+    Il y a différentes façons de l'utiliser:
+      /gps va envoyer à tout le monde, les coordonnées X et Z de la personne qui a fait la commande.
+      /gps <nom du joueur> envoi à tout le monde, les coordonnées X et Z de la personne désignée par la commande.
+      /gps <tonether> envoi au joueur sa position comme si il était dans le nether.
+      /gps <toearth> envoi au joueur sa position comme si il était dans l'overworld (monde normal).
+      
+  La commande date:
+    /date
+    Commande très simple qui envoi au joueur l'heure et la date locale
+  
+  La commande tonether:
+    /tonether <x> <y> <z>
+    Convertit la position donnée en position dans le nether.
+    
+  La commande toearth:
+    /toearth <x> <y> <z>
+    Convertit la position donnée en position dans l'Overworld (monde normal)
+  
+  La commande sort:
+    /sort
+    Cette commende est un peu plus complexe que les précédentes.
+    Permet de trier le coffre que l'on regarde. Le coffre est détecté si il n'est pas à plus de 5 blocks.
+    Attention: Cette commande ne trie pas par type mais par éléments identiques.
+    Par exemple:
+      [Coffre] = {"Bois", "Pierre", "Bois bleu", "Pierre rouge", "Pierre", "Bois"}
+      /sort va donner:
+      [Coffre] = {"Bois", "Bois", "Pierre", "Pierre", "Bois bleu", "Pierre rouge"}
+      et pas:
+      [Coffre] = {"Bois", "Bois", "Bois bleu", "Pierre", "Pierre", "Pierre rouge"}
+      
+ Le plugin répond aussi à certains événements:
+  Lorsqu'une personne se connecte, elle reçoit un message pour lui souhaiter un bon retour en jeu.
+  Lorsqu'une personne meure, elle reçoit un message qui contient les coordonnées du lieu de sa mort.
+  
