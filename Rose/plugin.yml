@@ -1,0 +1,20 @@
+name: Rose
+version: 1.7.1
+api-version: 1.16
+author: Olleroy
+main: fr.olleroy.rose.Rose
+commands:
+  rose:
+    description: Ceci est une commande test
+  gps:
+    description: Envoi votre position ou celle d'un autre joueur pour tout le monde dans le chat / conertit votre position vers un autre monde (nether ou earth)
+  date:
+    description: Donne la date et l'heure
+  tonether: 
+    description: Convertit la coordonnee normale a nether
+  toearth:
+    description: Convertit la coordonnee nether a normale
+  wearit:
+    description: Permet d'equiper sur la tete le bloc en main
+  sort:
+    description: Trie le coffre que tu regarde par type d'item. Attention, ne stack pas automatiquement
