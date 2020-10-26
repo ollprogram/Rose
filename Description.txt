@@ -26,6 +26,10 @@ Ce plugin rajoute différentes commandes:
     /toearth <x> <y> <z>
     Convertit la position donnée en position dans l'Overworld (monde normal)
   
+  La commande wearit:
+    /wearit
+    Prend l'item dans la main du joueur et le place sur sa tête.
+  
   La commande sort:
     /sort
     Cette commende est un peu plus complexe que les précédentes.
