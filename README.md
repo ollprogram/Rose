@@ -4,4 +4,4 @@ Everything in my project is wrote in french.
 
 Mon plugin est simplement un plugin que j'ai fais pour m'amuser,
 il n'y a rien de trop sophistiqué.
-Si vous avez besoins de précisions à propos du code n'hésitez pas.
+Si vous avez besoins de précisions, ou si vous avez des idées d'améliorations du code, n'hésitez pas.
