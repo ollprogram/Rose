@@ -1,5 +1,5 @@
 # Description
-
+Version du plugin: 1.7.5
 Ce plugin rajoute différentes commandes:
   
   La commande Rose:
