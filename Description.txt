@@ -34,15 +34,21 @@ Ce plugin rajoute différentes commandes:
     /sort
     Cette commande est un peu plus complexe que les précédentes.
     Permet de trier le coffre que l'on regarde. Le coffre est détecté si il n'est pas à plus de 5 blocks.
-    Attention: cette commande ne trie pas par type mais par éléments identiques.
+    Le trie est par type et par nom.
     Par exemple:
       [Coffre] = {"Bois", "Pierre", "Bois bleu", "Pierre rouge", "Pierre", "Bois"}
       /sort va donner:
-      [Coffre] = {"Bois", "Bois", "Pierre", "Pierre", "Bois bleu", "Pierre rouge"}
-      et pas:
       [Coffre] = {"Bois", "Bois", "Bois bleu", "Pierre", "Pierre", "Pierre rouge"}
       
  Le plugin répond aussi à certains événements:
   Lorsqu'une personne se connecte, elle reçoit un message pour lui souhaiter un bon retour en jeu.
   Lorsqu'une personne meure, elle reçoit un message qui contient les coordonnées du lieu de sa mort.
+
+Ce plugin rajoute une nouvelle recette:
+
+  La boussole complexe:
+  gold_block, gold_block, gold_block,
+  gold_block, compass, gold_block,
+  gold_block, gold_block, gold_block.
   
+  Les interractions avec l'objet créé ne sont pas finies...
