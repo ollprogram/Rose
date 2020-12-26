@@ -1,4 +1,4 @@
-# Rose
+# Rose 1.7.5
 A Minecraft Plugin for Spigot servers / bukkit.
 Everything in my project is written in french.
 Ce projet a besoin de l'API spigot / bukkit pour fonctionner, dispo ici: https://www.spigotmc.org/.
